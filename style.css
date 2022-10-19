@@ -34,6 +34,9 @@ header {
     color: #FFFFFF;
     cursor: pointer;
 }
+.button-header:active {
+    background: #888;
+}
 main {
     padding: 34px 0;
     display: flex;
@@ -79,6 +82,9 @@ p {
     font-size: 22px;
     line-height: 22px;
     color: #000000;
+}
+.button-main:active {
+    background: #aaee1a;
 }
 @media (max-width: 1100px) {
     main {
